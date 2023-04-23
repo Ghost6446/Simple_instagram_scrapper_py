@@ -1,0 +1,105 @@
+# 10-07-2022 -> 20-07-2022
+
+
+
+
+Action:
+    Like_post:
+        css: 'div.QBdPU span svg[aria-label="Mi piace"]'
+    Like_home_post:
+        css: 'span.FY9nT svg[aria-label="Mi piace"]'
+    Unlike_post:    
+        css: 'span.fr66n svg._8-yf5'
+    Follow_post:
+        css: 'div.bY2yH button.sqdOP'
+
+    Follow_private_page:
+        css: '._6VtSN'
+    Follow_public_page:
+        css : '.sqdOP'
+    Unfollow_post:
+        css: 'button.sqdOP:nth-child(2)'
+    Unfollow_page:
+        css: '.glyphsSpriteFriend_Follow'
+
+    Unfollow_button:
+        css: 'button.aOOlW:nth-child(1)'
+
+
+Download:
+    allpost:
+        url_post:
+            tag: a
+            class: oajrlxb2
+    Story:
+        Rect:
+            rectProfile:
+                tag: div
+                class: _aarf
+
+        Arrow:
+            next:
+                tag: div
+                class: _9zm2
+
+            prev: 
+                tag: div
+                class:  _9zm0
+
+        Extract:
+            video_src:
+                tag: video
+                class: x1lliihq
+
+            img_src:
+                tag: img
+                class: _aa63
+
+        InfoStory:
+            element_story:
+                tag: div
+                class: _ac3n
+
+            element_story_width:
+                tag: div
+                class: _ac3p _ac3q
+
+    Highlights:
+        Rect:
+            rectProfile:
+                tag: div
+                class: _aams
+
+        Text:
+            list_text:
+                tag: div
+                class: _ab0c
+
+            singolText:
+                tag: div
+                class: _aacl _aacn _aacu _aacx _aada _aade
+
+        Arrow:
+            next:
+                tag: div
+                class: _9zm2
+            prev: 
+                tag: div
+                class:  _9zm0
+
+        Extract:
+            video_src:
+                tag: video
+                class: x1lliihq
+            img_src:
+                tag: img
+                class: _aa63
+
+        InfoHigh:
+            element_story:
+                tag: div
+                class: _ac3n
+            element_story_width:
+                tag: div
+                class: _ac3p _ac3q
+
